@@ -1,0 +1,42 @@
+html{
+    font-family: 'Inter', sans-serif;
+    color: #18191F;
+}
+
+h1{
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 16px;
+}
+
+.hero-banner h1{
+    font-size: 64px;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.container{
+    /* background-color: #eee;*/
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+.col-1-2{
+    width: 50%;
+}
+.hero-banner{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: url(../images/02/Hero/Image.png) no-repeat right;
+}
+.hero-banner-wrapper{
+    background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
+}

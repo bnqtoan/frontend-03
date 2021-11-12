@@ -1,0 +1,39 @@
+.container{
+    max-width: 120px;
+}
+.btn{
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    color: #632323;
+}
+.font-sm{
+    font-size: 10px;
+    line-height: 1.8;
+}
+ul{
+    font-weight: bold;
+}
+.danh-sach{
+    border: 1px solid rgb(109, 109, 109);
+}
+.danh-sach-xanh{
+    color: blue;
+}
+.danh-sach-do{
+    color: red;
+}
+#dac-biet{
+    color: blue;
+}
+
+.font-sm p{
+    color: rgb(62, 62, 60);
+}
