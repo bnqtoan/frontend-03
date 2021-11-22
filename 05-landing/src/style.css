@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-h1{
+    @apply font-bold;
+}
+
+.arrow-down{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 12px 0 12px;
+    border-color: #ffffff transparent transparent transparent;
+}
+
+.slick-dots{
+    @apply flex items-center justify-center mt-10;
+}
+.slick-dots li{
+    text-indent: -99999px;
+    @apply w-2 h-2 rounded-full bg-turquoise mx-3;
+}
+
+.slick-dots li.slick-active{
+    /* @apply bg-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2; */
+    @apply w-4 h-4;
+}
+/* .slick-active{
+    @apply bg-turquoise rounded-full w-4 h-4 relative;
+} */
